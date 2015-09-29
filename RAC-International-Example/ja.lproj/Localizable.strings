@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  RACPractice
+
+  Created by Veracruz on 15/9/29.
+  Copyright © 2015年 Veracruz. All rights reserved.
+*/
+
+"Language" = "言語";
+"Button" = "ボタン";
+"Label" = "ラベル";
+"Hello World" = "こんにちは世界";
+"It's s pretty day." = "いい天気だな";
