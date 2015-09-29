@@ -17,3 +17,5 @@ Use *Reactive Cocoa* make localized string like this
 ```
 
 These controls can response the change of language IN APP.
+
+<image src="http://veracruz.github.io/images/2015_9/RAC-International-Example.gif" width=320></image>
