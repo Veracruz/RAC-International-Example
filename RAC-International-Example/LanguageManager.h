@@ -12,7 +12,7 @@
 
 @interface LanguageManager : NSObject
 
-+ (LanguageManager *)shareInstance;
++ (LanguageManager *)sharedInstance;
 
 - (RACSignal *)languageChangedSignal;
 - (NSString *)localizedString:(NSString *)key;
@@ -22,6 +22,6 @@
 
 @end
 
-#define LanguageViewModel [LanguageManager shareInstance]
+#define LanguageViewModel [LanguageManager sharedInstance]
 #define LocalizedString(key) [LanguageViewModel localizedString:(key)]
 #define LanguageChangedSignal [LanguageViewModel languageChangedSignal]

@@ -23,7 +23,7 @@
 
 @implementation LanguageManager
 
-+ (LanguageManager *)shareInstance {
++ (LanguageManager *)sharedInstance {
     static LanguageManager *instance;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{

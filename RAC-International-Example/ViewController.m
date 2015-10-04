@@ -33,7 +33,7 @@
         self.titleLabel.text = LocalizedString(@"Hello World");
         [self.button setTitle:LocalizedString(@"Button") forState:UIControlStateNormal];
         self.label.text = LocalizedString(@"Label");
-        self.textView.text = LocalizedString(@"It's s pretty day.");
+        self.textView.text = LocalizedString(@"It's a pretty day.");
     }];
 }
 
